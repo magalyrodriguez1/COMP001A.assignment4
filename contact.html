@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Space - Contact Us</title>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="milkyway.html">Milky Way</a></li>
+            <li><a href="andromeda.html">M31 Andromeda Galaxy</a></li>
+            <li><a href="nebula.html">Nebulae</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</head>
+
+<body>
+    <h1>Contact Us</h1>
+    <p>Have a suggestion as to what to add to the site? Contact us using the form below:</p>
+
+
+    <form action="/submit" method="post">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+
+        <br>
+        <!--for email and subject, I reused the code from line 26 and 27. If there is another
+        method, please let me know-->
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Enter your email">
+
+        <br>
+
+        <label for="subject">subject:</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject line">
+
+        <br>
+        <br>
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+        <br>
+        
+        <input type="submit" value="Submit">
+
+        <input type="reset" value="reset">
+   
+    <footer>
+        <p>&copy; Mrodriguez Inc. <a href="https://instagram.com/nasa/">Instagram</a></p>
+    </footer>
+</body>
+
+
+
+</html>
